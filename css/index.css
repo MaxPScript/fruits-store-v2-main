@@ -284,6 +284,12 @@ background-image: url("https://www.transparenttextures.com/patterns/fresh-snow.p
     }
 }
 @media (max-width: 500px) {
+    .main {
+        grid-template-columns: 5% auto 5%;
+    }
+    .carousel {
+        width: 70%;
+    }
     .section {
         margin-bottom: 14vw;
     }
