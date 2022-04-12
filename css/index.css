@@ -75,7 +75,7 @@ padding: 0 1em;
     grid-row: 2/3;
     display: grid;
     /* grid-template-rows: repeat(2, auto); */
-    grid-template-columns: 150px auto 150px;
+    grid-template-columns: 10vw auto 10vw;
     /* width: inherit; */
     /* max-width: inherit; */
     /* width: 90%; */
