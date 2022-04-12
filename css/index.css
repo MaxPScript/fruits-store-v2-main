@@ -28,6 +28,14 @@ body {
 }
 .header {
     background-color: hsla(198, 100%, 70%, 1);
+    background-color: #66d1ff;
+background-image: url("https://www.transparenttextures.com/patterns/asfalt-light.png");
+background-color: #66d1ff;
+background-image: url("https://www.transparenttextures.com/patterns/batthern.png");
+background-color: #66d1ff;
+background-image: url("https://www.transparenttextures.com/patterns/black-linen.png");
+background-color: #66d1ff;
+background-image: url("https://www.transparenttextures.com/patterns/concrete-wall.png");
 }
 .nav {
     /* height: 80px; */
@@ -106,7 +114,7 @@ padding: 0 1em;
 .section__food, .section__drink {
     display: grid;
     place-items: center;
-    grid-template-rows: auto 1fr;
+    grid-template-rows: auto auto 1fr;
     grid-gap: 1vw;
 }
 .section__image {
@@ -119,11 +127,23 @@ padding: 0 1em;
 .section p {
     text-align: center;
 }
-.section img {
+.section svg {
+    width: 6vw;
+}
+.section__img {
     width: 100%;
     /* width: 50%; */
     display: block;
     margin: auto;
+}
+.section__icon {
+    width: 20vw;
+}
+.section__icon-left {
+    justify-self: self-start;
+}
+.section__icon-right {
+    justify-self: self-end;
 }
 .section__food {
     /* grid-row: 2/3; */
@@ -188,6 +208,8 @@ padding: 0 1em;
     /* height: 10vh; */
     padding: 1vw;
     background-color: hsla(198, 100%, 70%, 1);
+    background-color: #66d1ff;
+background-image: url("https://www.transparenttextures.com/patterns/concrete-wall.png");
 }
 /* animations */
 @keyframes logoAnime {
@@ -241,7 +263,7 @@ padding: 0 1em;
 }
 @media (max-width: 500px) {
     .section {
-        margin-bottom: 7vw;
+        margin-bottom: 14vw;
     }
 }
 
